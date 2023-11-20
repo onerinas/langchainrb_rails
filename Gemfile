@@ -15,4 +15,4 @@ gem "rubocop", require: false
 
 gem "standardrb"
 
-gem "langchainrb"
+gem "langchainrb", github: "onerinas/langchainrb", branch: "patch-2" # Remove once https://github.com/andreibondarev/langchainrb/pull/396 is merged and available in langchainrb_rails
