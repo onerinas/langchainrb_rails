@@ -78,7 +78,7 @@ module LangchainrbRails
             has_neighbors(:embedding)
           end
 
-          LangchainrbRails.config.vectorsearch.model = self
+          # LangchainrbRails.config.vectorsearch.model = self
         end
 
         # Iterates over records and generate embeddings.
